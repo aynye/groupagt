@@ -11,6 +11,7 @@ public class ThreadExcercise extends Thread {
         th1.start();
         //Thread.yield();
         th1.setName(" Group 5"); 
+        System.out.println("hi im eden and im involved ");
         System.out.println("the name of the thrread is"+  th1.getName());
         th1.join();
         Thread2 th2=new Thread2();
